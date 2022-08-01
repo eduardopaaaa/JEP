@@ -1,0 +1,68 @@
+html, body {
+    min-width: 100%;
+}
+
+
+.cards {
+    display: inline-block;
+    width: 10em;
+    margin: auto;
+}
+
+img {
+    width: 150px;
+}
+
+#shuffle {
+    display:block;
+    width: 100%;
+    height: 100px;
+}
+
+h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.betButton { 
+    display:inline-block;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    height:100px;
+    margin: auto;
+}
+
+.highlight {
+    border: 10px black solid;
+}
+
+#dealSecondButton { 
+    display:block;
+    width: 500px;
+    height: 50px;
+    margin: auto;
+}
+
+#cardContainer {
+    display: block;
+    display:flex;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#betContainer {
+    display: block;
+    display: flex;
+    height:auto;
+    margin: auto;
+}
+
+.secondFinish {
+    border: 10px red solid;
+}
+
+.disabled { 
+    opacity: 50%;
+    background-color:  black;
+}
