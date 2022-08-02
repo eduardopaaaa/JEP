@@ -12,3 +12,10 @@ IM A FAN OF DARK MODE, BUT I UNDERSTAND SOME PEOPLE DO NOT LIKE IT, SO I ADDED T
 
 I used multiple websites to get ideas and troubleshoot (mainly JQuery and css changes)
 
+Overall, i wanted to start with a black greeting page, where you can click on it and it takes you directly to the bulk of the general info.
+
+I plan to keep this page updated with new features, so i added a update schedule as a header
+
+No installation istructions needed, as this website will be live by Wednesday August 3rd. 
+
+Unsolved problems: im having some trouble with the hide button, its mainly that i just overcooked my brain and was not able to get it solved in time. should be a quick fix just like i used the change backround-color feature with JQuery

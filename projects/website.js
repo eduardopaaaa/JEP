@@ -6,3 +6,5 @@ $(document).ready(function(){
     });
   });
   
+  display: none;
+  display: block;

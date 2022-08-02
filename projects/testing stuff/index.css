@@ -9,6 +9,8 @@ audio,progress{display:inline-block}progress{vertical-align:baseline}
 
 audio:not([controls]){display:none;height:0}[hidden],template{display:none}
 
+.JEhide { background-color: black; width: 10000px; height: 10000px}
+
 
 
 a.button {
@@ -22,9 +24,7 @@ a.button {
     color: initial;
 }
 
-.body {
-    font-family: 'Iceland', cursive;
-} 
+.body { font-family: 'Iceland', cursive; } 
 
 html,body{font-family: "Iceland", cursive;font-size:15px;line-height:1.5}html{overflow-x:hidden}
 
