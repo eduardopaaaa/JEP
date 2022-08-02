@@ -20,6 +20,7 @@ html,body,h1,h2,h3,h4,h5,h6,button,footer,header {font-family: "Iceland", cursiv
 </style>
 
 </head>
+<div class = "JEhide" id= JEhide> </div>
 
 <body style= "background-color:#2E3033";>
 
@@ -27,18 +28,19 @@ html,body,h1,h2,h3,h4,h5,h6,button,footer,header {font-family: "Iceland", cursiv
     <p>HELLO! THANK YOU FOR STOPPING BY | I HOPE YOU LIKE VERSION 1.0 OF MY PERSONAL WEBSITE | UPDATES WILL GO LIVE WEEKLY ON FRIDAYS @ 5PM CST
     </p>
     <hr>
-    <p> | UPDATE 1.1 -- NEW HOME PAGE WITH VIDEO BACKROUND, AUTOPLAY MUSIC WITH START STOP FUNCTIONALITY, EMAIL SUBMISSION & LIKE BUTTON WTH COUNTER |</p>
+    <p> | UPDATE 1.1 -- NEW HOME PAGE WITH VIDEO BACKROUND, AUTOPLAY MUSIC WITH START STOP FUNCTIONALITY, EMAIL SUBMISSION  |</p>
     <hr>
     <p> | UPDATE 1.2 -- BACKROUND INFO PAGE | BOOTSTRAP INTEGRATIONS | ANIMATIONS | DROPDOWNS  |</p>
     <hr>
     <p> | UPDATE 1.3 -- MOUSE HOVER IN / OUT WILL HIDE AND UNHIDE ALL CONTENTS ON PAGE |</p>
+    <hr>
+    <p> | UPDATE 1.4 -- ADDING COMMENT SECTION & LIKE BUTTON |</p>
     <hr>
   </headerr>
 
 <audio class = "JE-center JE-container" controls loop="true">
   <source src="/Users/hacker/Desktop/docs/lightmusic.mp3" type="audio/mpeg">
 </audio>
-
 
 
 
@@ -49,7 +51,7 @@ html,body,h1,h2,h3,h4,h5,h6,button,footer,header {font-family: "Iceland", cursiv
     $("body").on({
       dblclick: function () {
         setTimeout(() => {
-        $(this).css("background-color", "gray");
+        $(this).css("background-color", "indigo");
         },2000)
       },
     });
@@ -65,16 +67,26 @@ $(document).ready(function(){
         },  
        
         mouseleave: function(){
-            $(this).css("background-color", "white");
+            $(this).css("background-color", "gray");
         },
     });
 });
 </script>
 
+
+<script type="text/javascript"> document.getElementById("JEhide").onclick = function() {
+  document.getElementById("JEhide").style.display = "none";
+}
+</script>
+
+
 <div class= "JE-text-white" id="lilbox">----------------------------------------</div>
 <button onclick = "document.body.style.backgroundColor = 'red';" type="button" id="btn1">RED MODE</button>
 <button onclick = "document.body.style.backgroundColor = 'black';" type="button" id="btn2">DARK MODE</button>
+<button onclick = "document.getElementById.JEhide.style.display = 'none';" id="hide"  title="hide" type="button">HIDE</button>
 <div class= "JE-text-white" id="lilbox">----------------------------------------</div>
+
+
 
 <div class="JE-content JE-margin-top" style="max-width:1400px;">
 
