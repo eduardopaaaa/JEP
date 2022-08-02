@@ -54,13 +54,13 @@ img{vertical-align:middle}a{color:inherit}
 
 .JE-col.s9{width:75%}.JE-col.s10{width:83%}.JE-col.s11{width:91%}.JE-col.s12{width:100%}
 
-@media (min-width:601px){.JE-col.m1{width:8%}.JE-col.m2{width:16%}.JE-col.m3,.JE-quarter{width:25%}.JE-col.m4,.JE-third{width:33%}
+@media (min-width:600px){.JE-col.m1{width:8%}.JE-col.m2{width:16%}.JE-col.m3,.JE-quarter{width:25%}.JE-col.m4,.JE-third{width:33%}
 
 .JE-col.m5{width:41%}.JE-col.m6,.JE-half{width:50%}.JE-col.m7{width:58%}.JE-col.m8,.JE-twothird{width:66%}
 
 .JE-col.m9,.JE-threequarter{width:75%}.JE-col.m10{width:83%}.JE-col.m11{width:91%}.JE-col.m12{width:100%}}
 
-@media (min-width:993px){.JE-col.l1{width:8%}.JE-col.l2{width:16%}.JE-col.l3{width:25%}.JE-col.l4{width:33%}
+@media (min-width:990px){.JE-col.l1{width:8%}.JE-col.l2{width:16%}.JE-col.l3{width:25%}.JE-col.l4{width:33%}
 
 .JE-col.l5{width:41%}.JE-col.l6{width:50%}.JE-col.l7{width:58%}.JE-col.l8{width:66%}
 
@@ -128,7 +128,7 @@ img{vertical-align:middle}a{color:inherit}
 
 .JE-small{font-size:12px!important}.JE-medium{font-size:15px!important}.JE-large{font-size:18px!important}
 
-.JE-xlarge{font-size:24px!important}.JE-xxlarge{font-size:36px!important}.JE-xxxlarge{font-size:48px!important}.JE-jumbo{font-size:64px!important}
+.JE-xlarge{font-size:25px!important}.JE-xxlarge{font-size:37px!important}.JE-xxxlarge{font-size:48px!important}
 
 
 .JE-left-align{text-align:left!important}.JE-right-align{text-align:right!important}.JE-justify{text-align:justify!important}.JE-center{text-align:center!important}
