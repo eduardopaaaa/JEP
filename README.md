@@ -12,7 +12,7 @@ IM A FAN OF DARK MODE, BUT I UNDERSTAND SOME PEOPLE DO NOT LIKE IT, SO I ADDED T
 
 I used multiple websites to get ideas and troubleshoot (mainly JQuery and css changes)
 
-Overall, i wanted to start with a black greeting page, where you can click on it and it takes you directly to the bulk of the general info.
+Overall, I wanted to start with a black greeting page, where you can click on it and it takes you directly to the bulk of the general info.
 
 I plan to keep this page updated with new features, so i added a update schedule as a header
 
