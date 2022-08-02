@@ -12,7 +12,6 @@ audio:not([controls]){display:none;height:0}[hidden],template{display:none}
 .JEhide { background-color: black; width: 10000px; height: 10000px}
 
 
-
 a.button {
     -webkit-appearance: button
     -moz-appearance button;
