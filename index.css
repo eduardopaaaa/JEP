@@ -1,67 +1,4 @@
-.card {
-    height: 150px;
-    width: 150px;
-    background:black;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    overflow: hidden;
-    display: grid;
-    place-items: center;
-    position: relative;
-    margin-left: 1200px;
-    margin-top: 325px;
-}
-
-
-.text{ 
-    margin-top: 0.5em;
-    text-align: center;
-    transition: 2s ease;
-    transform: translateY(150px);
-    opacity : 0;
-    position: absolute;
-    z-index: 3;
-
-}
-
-.card:hover .text {
-    transform: translateY(-5px);
-    opacity: 1;
-    position: absolute ;
-    font-size: larger;
-}
-
-.card::before{
-    content:'';
-    width: 60px;
-    height: 300px;
-    left: 10px;
-    top: -70px;
-    position: relative;
-    background: linear-gradient(skyblue, rgb(129, 227, 129));
-    animation: animate 6s linear infinite;
-    
-}
-
-@keyframes animate{
-    0% { trandform:rotate(0deg); }
-    100% { transform:rotate(360deg); }
-}
-
-.card::after{
-    content:'';
-    position: absolute;
-    background: black;
-    inset: 3px;
-    border-radius:5px; 
-}
-
-
-
-
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
-
 
 html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}
 footer,header,head{display:block}summary{display:list-item}
@@ -255,3 +192,63 @@ img{vertical-align:middle}a{color:inherit}
 
 .JE-text-dark-grey,.JE-hover-text-dark-grey:hover,.JE-text-dark-gray,.JE-hover-text-dark-gray:hover{color:black!important}
 
+
+.card {
+    height: 150px;
+    width: 150px;
+    background:black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+    position: relative;
+    margin-left: 1150px;
+}
+
+
+.text{ 
+    margin-top: 0.5em;
+    text-align: center;
+    transition: 2s ease;
+    transform: translateY(150px);
+    opacity : 0;
+    position: absolute;
+    z-index: 3;
+
+}
+
+.card:hover .text {
+    transform: translateY(-5px);
+    opacity: 1;
+    position: absolute ;
+    font-size: larger;
+}
+
+.card::before{
+    content:'';
+    width: 60px;
+    height: 300px;
+    left: 10px;
+    top: -70px;
+    position: relative;
+    background: linear-gradient(skyblue, rgb(129, 227, 129));
+    animation: animate 6s linear infinite;
+    
+}
+
+@keyframes animate{
+    0% { transform:rotate(0deg); }
+    100% { transform:rotate(360deg); }
+}
+
+.card::after{
+    content:'';
+    position: absolute;
+    background: black;
+    inset: 3px;
+    border-radius:5px; 
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
