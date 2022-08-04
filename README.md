@@ -21,3 +21,4 @@ No installation istructions needed, as this website will be live by Wednesday Au
 Unsolved problems: im having some trouble with the hide button, its mainly that i just overcooked my brain and was not able to get it solved in time. should be a quick fix just like i used the change backround-color feature with JQuery
 
 FIXING: typos, link color to be indentifiably, pendingupdates to be fille with info
+hello
