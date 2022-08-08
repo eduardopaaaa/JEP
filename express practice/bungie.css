@@ -1,0 +1,36 @@
+* {
+    text-align: center;
+}
+body {
+    font-family: "Iceland", cursive;
+    color: #9AA899;
+}
+h1 {
+    color: black;
+    font-size: 36px;
+}
+#flexbox1 {
+    display: flex;
+    justify-content: center;
+    background-color: #AFBED1;
+    margin: .5em;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 5px;
+
+}
+#flexboxLinks {
+    display: flex;
+    justify-content: center;
+    margin: .5em;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 5px;
+}
+.navlink {
+    padding: .5em;
+    color: rgb(46, 14, 19);
+}
+.Bungie {
+    border-radius: 5px;
+}
