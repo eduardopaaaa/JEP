@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/skeleton.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Budget Index Page</h1>
+    <ul>
+        <% for(let i = 0; i < budgets.length; i++) { %>
+            <li>
+                <a href="/budgets/<%=budgets[i].id%>">
+                <%=budget[i].name%>
+                </a>
+                <form action="/budgets/<%=budgets[i].id%>?_method=DELETE" method="POST"> 
+                    <input type="submit" value="DELETE" /> 
+                </form>
+                <a href="/budgets/<%=budgets[i].id; %>/edit">Edit</a>
+
+            </li>
+       <% } %>
+    </ul>
+        <nav>
+            <a href="/budgets/new">Create a New Budget Entry</a>
+        </nav>
+</body>
+</html>

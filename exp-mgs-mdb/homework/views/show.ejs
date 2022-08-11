@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/skeleton.css">
+
+</head>
+<body>
+    <h1>Budget Showcase</h1>
+    Budget for  <%=budget.Date%> <%=budget.Name%> from <%=budget.From%> max: <%=budget.Amount%> total: <%=budget.Tags%> 
+     <% if (budget.approveBudget === true) { %> Budget Approved <% } else { %> Budget Not Approved <% } %> 
+    <nav>
+        <a href="/budgets">Return to Budget Index</a>
+    </nav>
+</body>
+</html>
+
